@@ -7,8 +7,6 @@ Changes
 * Fix issue where tilde (``~``) characters were incorrectly
   percent-encoded in the path. (Pull #1692)
 
-* Optimize _encode_invalid_chars (Pull #1787)
-
 
 1.25.5 (2019-09-19)
 -------------------
