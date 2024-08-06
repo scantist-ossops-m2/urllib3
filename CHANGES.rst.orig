@@ -19,8 +19,6 @@ Changes
 
 * Percent-encode invalid characters in URL for ``HTTPConnectionPool.request()`` (Pull #1673)
 
-* Optimize _encode_invalid_chars (Pull #1787)
-
 
 1.25.3 (2019-05-23)
 -------------------
