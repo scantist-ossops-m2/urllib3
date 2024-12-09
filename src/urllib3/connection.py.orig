@@ -403,10 +403,6 @@ class VerifiedHTTPSConnection(HTTPSConnection):
             context.verify_mode == ssl.CERT_REQUIRED
             or self.assert_fingerprint is not None
         )
-        # By default urllib3's SSLContext disables `check_hostname` and uses
-        # a custom check. For proxies we're good with relying on the default
-        # verification.
-        ssl_context.check_hostname = True
 
 
 def _match_hostname(cert, asserted_hostname):
